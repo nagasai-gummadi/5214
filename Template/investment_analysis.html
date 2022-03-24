@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+
+		/* Set display to none for image*/
+		#image {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+<div class="col-md-12">
+      <form action="" method="post">
+        <h1>        Investement Analysis </h1>
+        
+        <fieldset>
+          
+            
+			<label>Funding Type:</label>
+			<select multiple size="4"> 
+				<option value="seed">seed</option>
+                <option value="angel">angel</option>
+                <option value="venture">venture</option>
+				<option value="private_equity">private_equity</option>
+			</select>
+        
+          <label for="Funding_Min_Amount">Funding_max_Amount</label>
+          <input type="Funding_Min_Amount" id="Funding_Max_Amount" name="Funding_Max_Amount">
+		  <label for="Funding_Max_Amount">Funding_max_Amount</label>
+          <input type="Funding_Max_Amount" id="Funding_Max_Amount" name="Funding_Max_Amount">
+        
+        
+		
+			
+        </fieldset>
+       </form>
+    </div>
+	<div>
+	
+
+	<button type="button"
+		onclick="show()" id="btnID">
+		Submit
+	</button>
+<img id="image" src=
+"https://github.com/nagasai-gummadi/5214/blob/main/Template/top_sectors.png?raw=true"
+			alt="GFG image" />
+			
+	<script>
+	
+		function show() {
+
+			/* Access image by id and change
+			the display property to block*/
+			document.getElementById('image')
+					.style.display = "block";
+
+			document.getElementById('btnID')
+					.style.display = "none";
+		}
+	</script>
+</body>
+
+</html>
